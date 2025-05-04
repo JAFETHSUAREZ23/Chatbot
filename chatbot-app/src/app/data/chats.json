@@ -1,0 +1,30 @@
+{
+  "1": [
+    {
+      "id": "chat1",
+      "title": "Charla sobre Next.js",
+      "conversation": [
+        { "sender": "user", "message": "Hola, ¿estás ahí?" },
+        { "sender": "bot", "message": "Sí, ¿en qué te ayudo?" }
+      ]
+    },
+    {
+      "id": "chat2",
+      "title": "Aprender React",
+      "conversation": [
+        { "sender": "user", "message": "¿Cómo empiezo con React?" },
+        { "sender": "bot", "message": "Puedes empezar creando una app con Vite o CRA." }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "chat1",
+      "title": "Dudas generales",
+      "conversation": [
+        { "sender": "user", "message": "Hola bot" },
+        { "sender": "bot", "message": "Hola, ¿cómo puedo ayudarte hoy?" }
+      ]
+    }
+  ]
+}
