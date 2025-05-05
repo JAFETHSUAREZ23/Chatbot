@@ -1,19 +1,123 @@
 {
   "1": [
     {
+      "id": "d5a9a202-d1d5-4a3a-bd78-39d6216dbf95",
+      "title": "como estas",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
+      ]
+    },
+    {
+      "id": "9456bbca-0418-487d-83cc-5d1aa026a6ed",
+      "title": "hola",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
+      ]
+    },
+    {
       "id": "chat1",
       "title": "Charla sobre Next.js",
       "conversation": [
-        { "sender": "user", "message": "Hola, ¿estás ahí?" },
-        { "sender": "bot", "message": "Sí, ¿en qué te ayudo?" }
+        {
+          "sender": "user",
+          "message": "Hola, ¿estás ahí?"
+        },
+        {
+          "sender": "bot",
+          "message": "Sí, ¿en qué te ayudo?"
+        },
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        },
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
       ]
     },
     {
       "id": "chat2",
       "title": "Aprender React",
       "conversation": [
-        { "sender": "user", "message": "¿Cómo empiezo con React?" },
-        { "sender": "bot", "message": "Puedes empezar creando una app con Vite o CRA." }
+        {
+          "sender": "user",
+          "message": "¿Cómo empiezo con React?"
+        },
+        {
+          "sender": "bot",
+          "message": "Puedes empezar creando una app con Vite o CRA."
+        },
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
       ]
     }
   ],
@@ -22,8 +126,14 @@
       "id": "chat1",
       "title": "Dudas generales",
       "conversation": [
-        { "sender": "user", "message": "Hola bot" },
-        { "sender": "bot", "message": "Hola, ¿cómo puedo ayudarte hoy?" }
+        {
+          "sender": "user",
+          "message": "Hola bot"
+        },
+        {
+          "sender": "bot",
+          "message": "Hola, ¿cómo puedo ayudarte hoy?"
+        }
       ]
     }
   ]

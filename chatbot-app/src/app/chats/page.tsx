@@ -1,47 +1,17 @@
-'use client';
-
-import { useEffect, useState } from "react";
-import axios from "axios";
-import Link from "next/link";
-import { Chat, User } from "../types/index";
-
-function ChatPage() {
-  const [user, setUser] = useState<User | null>(null);
-  const [chats, setChats] = useState<Chat[]>([]);
-
-  useEffect(() => {
-    const fetchUserAndChats = async () => {
-      try {
-        const userRes = await axios.get("/api/auth/me");
-        setUser(userRes.data.user);
-
-        const chatRes = await axios.get("/api/chats");
-        setChats(chatRes.data.chats);
-      } catch (err) {
-        console.error("Error:", err);
-      }
-    };
-
-    fetchUserAndChats();
-  }, []);
-
-  if (!user) return <p>Cargando usuario...</p>;
-
+import ChatConversation from "../components/ChatConversation";
+import ChatSidebar from "../components/ChatSideBar";
+export default function ChatLayout() {
   return (
-    <div>
-      <h1>Bienvenido, {user.name}</h1>
-      <h2>Chats disponibles:</h2>
-      <ul>
-        {chats.map((chat) => (
-          <li key={chat.id}>
-            <Link href={`/chats/${chat.id}`}>
-              <strong>{chat.title}</strong> ({chat.conversation.length} mensajes)
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className="container-fluid  ">
+      <div className="row vh-100 bg-light">
+        <div className="col-auto p-0 ">
+          <ChatSidebar />
+        </div>
+
+        <div className="col bg-dark-subtle  overflow-auto">
+        <ChatConversation />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default ChatPage;

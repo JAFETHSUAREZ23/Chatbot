@@ -37,20 +37,38 @@ function LoginPage() {
   };
 
   return (
-    <div>
+    <div className="container d-flex justify-content-center align-items-center vh-100">
+      <div className="card shadow p-4" style={{ maxWidth: "400px", width: "100%" }}>
+        <h2 className="text-center mb-4">ChatBotApp</h2>
+
         <form onSubmit={handleSubmit}>
-          {error && <p style={{ color: "red" }}>{error}</p>}
-            <input name="email" 
-             type="email"
-             placeholder="email"
-             onChange={handleChange}/>
-            <input 
-            name="password" 
-            type="password" 
-            placeholder="password" 
-            onChange={handleChange}/>
-            <button> Login </button>
+          {error && <div className="alert alert-danger">{error}</div>}
+
+          <div className="mb-3">
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              className="form-control"
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <div className="mb-3">
+            <input
+              name="password"
+              type="password"
+              placeholder="Password"
+              className="form-control"
+              onChange={handleChange}
+              required
+            />
+          </div>
+
+          <button className="btn btn-primary w-100">Login</button>
         </form>
+      </div>
     </div>
   );
 }
