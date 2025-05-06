@@ -1,140 +1,144 @@
 {
   "1": [
     {
-      "id": "d5a9a202-d1d5-4a3a-bd78-39d6216dbf95",
-      "title": "como estas",
+      "id": "4b2fa2f2-1214-4727-ac26-ac1e2ff4ef6b",
+      "title": "How to start coding?",
       "conversation": [
         {
           "sender": "user",
-          "message": "como estas"
+          "message": "How to start coding?"
         },
         {
           "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
+          "message": "1. Choose a programming language: There are many programming languages to choose from, such as Python, Java, JavaScript, C++, and more. Consider what your goals are and what you want to build to help you decide which language to start with.\n\n2. Set up your development environment: Download and install the necessary software tools for coding in your chosen language. This may include an Integrated Development Environment (IDE) or a simple text editor.\n\n3. Start with the basics: Begin by learning the fundamental concepts of programming, such as variables, data types, loops, and functions. Many online resources, tutorials, and courses are available for beginners.\n\n4. Practice coding: The best way to learn how to code is by practicing and writing code regularly. Start with small projects and gradually increase the complexity as you become more comfortable with the language.\n\n5. Join a coding community: Joining a coding community or forum can be a great way to connect with other programmers, ask for help, and share your progress. Sites like Stack Overflow, GitHub, and Reddit have active coding communities.\n\n6. Work on projects: A great way to apply your coding skills is by working on real-world projects. This will help you gain practical experience and build a portfolio of work that you can show to potential employers.\n\n7. Learn from your mistakes: Don't be afraid to make mistakes while coding. Debugging and troubleshooting are important parts of the coding process and can help you learn and grow as a programmer.\n\n8. Stay updated: The field of programming is constantly evolving, so it's important to stay updated on new technologies, languages, and best practices. Follow coding blogs, attend workshops, and participate in online courses to continue learning and improving your skills.",
+          "feedback": "dislike"
         }
-      ]
+      ],
+      "createdAt": "2025-05-06T01:26:51.068Z"
     },
     {
-      "id": "9456bbca-0418-487d-83cc-5d1aa026a6ed",
-      "title": "hola",
+      "id": "4cb8af0d-4320-4b54-bd18-f2edceb22bee",
+      "title": "How to learn Python?",
       "conversation": [
         {
           "sender": "user",
-          "message": "hola"
+          "message": "How to learn Python?"
         },
         {
           "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "como estas"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
+          "message": "1. Start with the basics: Begin by familiarizing yourself with the basic syntax and concepts of Python, such as variables, loops, functions, and data types.\n\n2. Take online courses: There are many online resources available that offer comprehensive Python tutorials and courses for beginners. Websites like Codecademy, Udemy, and Coursera are great places to start.\n\n3. Practice coding: The best way to learn Python is by practicing writing code. Try solving coding challenges, working on small projects, or participating in coding exercises on platforms like LeetCode or HackerRank.\n\n4. Join a study group or coding community: Joining a study group or online coding community can provide you with support, motivation, and opportunities to collaborate with others learning Python.\n\n5. Read Python programming books: There are many books available that cover Python programming in depth. Some popular recommendations include \"Python Crash Course\" by Eric Matthes and \"Automate the Boring Stuff with Python\" by Al Sweigart.\n\n6. Attend Python workshops or bootcamps: Consider attending in-person or online workshops or bootcamps that focus on Python programming. These can provide structured learning opportunities and hands-on experience.\n\n7. Build projects: Once you have a good understanding of the basics, start building your own projects using Python. This will help you apply what you've learned and gain practical experience.\n\n8. Seek out mentorship: Consider finding a mentor who can provide guidance, answer questions, and offer tips for learning Python more effectively.\n\n9. Stay updated with Python news and developments: Python is continuously evolving, so it's important to stay current with the latest updates and trends in the Python community.\n\n10. Practice, practice, practice: Consistent practice is key to mastering Python programming. Make coding a regular part of your routine and continue to challenge yourself with new projects and exercises.",
+          "feedback": "like"
         }
-      ]
+      ],
+      "createdAt": "2025-05-06T01:17:53.821Z"
     },
     {
-      "id": "chat1",
-      "title": "Charla sobre Next.js",
+      "id": "63de128e-cd92-4f70-a19f-b5c3a507a716",
+      "title": "What is Big O?",
       "conversation": [
         {
           "sender": "user",
-          "message": "Hola, ¿estás ahí?"
+          "message": "Can you explain what Big O notation is?"
         },
         {
           "sender": "bot",
-          "message": "Sí, ¿en qué te ayudo?"
-        },
-        {
-          "sender": "user",
-          "message": "hola"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "hola"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "hola"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "como estas"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "hola"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
-        },
-        {
-          "sender": "user",
-          "message": "como estas"
-        },
-        {
-          "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
+          "message": "🤖 Big O notation describes the performance or complexity of an algorithm. It tells you how the runtime or space requirements grow as the input size increases."
         }
-      ]
+      ],
+      "createdAt": "2025-04-29T12:00:00.000Z"
     },
     {
-      "id": "chat2",
-      "title": "Aprender React",
+      "id": "92efb1a5-9dd2-4c56-b5c6-607d2f1293a7",
+      "title": "Recursion vs Iteration",
       "conversation": [
         {
           "sender": "user",
-          "message": "¿Cómo empiezo con React?"
+          "message": "What's the difference between recursion and iteration?"
         },
         {
           "sender": "bot",
-          "message": "Puedes empezar creando una app con Vite o CRA."
-        },
+          "message": "🤖 Recursion solves a problem by calling itself, while iteration uses loops. Recursion is often easier to write but can be less efficient due to function call overhead."
+        }
+      ],
+      "createdAt": "2025-04-29T15:30:00.000Z"
+    },
+    {
+      "id": "c2cb74d3-1944-4e47-bcd2-c4c08c39b0da",
+      "title": "SQL Joins",
+      "conversation": [
         {
           "sender": "user",
-          "message": "como estas"
+          "message": "Can you explain the different types of SQL joins?"
         },
         {
           "sender": "bot",
-          "message": "🤖 Dime en qué puedo ayudarte."
+          "message": "🤖 Sure! The main types of joins are INNER, LEFT, RIGHT, and FULL OUTER. Each determines how rows from one table match to another."
         }
-      ]
+      ],
+      "createdAt": "2025-04-29T18:45:00.000Z"
+    },
+    {
+      "id": "62b0ae91-2fe5-41f0-9c2a-177b374f9d8c",
+      "title": "Stack vs Heap",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "What's the difference between stack and heap memory?"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Stack memory is used for static memory allocation, like function calls. Heap memory is used for dynamic memory allocation, like objects created at runtime."
+        }
+      ],
+      "createdAt": "2025-05-06T09:12:00.000Z"
+    },
+    {
+      "id": "3a7fc05b-1227-456e-9b9a-e71811f2a92b",
+      "title": "REST vs GraphQL",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "What’s the main difference between REST and GraphQL?"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 REST uses multiple endpoints for different resources. GraphQL uses a single endpoint and allows the client to specify exactly what data it needs."
+        }
+      ],
+      "createdAt": "2025-05-06T10:45:00.000Z"
+    },
+    {
+      "id": "a00a6f0e-58b0-4f5d-9801-cdb94c1637e7",
+      "title": "JavaScript Closure",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "Can you explain closures in JavaScript?"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 A closure is a function that has access to its own scope, the outer function’s scope, and the global scope, even after the outer function has returned."
+        }
+      ],
+      "createdAt": "2025-05-06T13:00:00.000Z"
     }
   ],
   "2": [
     {
-      "id": "chat1",
-      "title": "Dudas generales",
+      "id": "55066313-ea74-4059-9a79-91cc8c8f4df6",
+      "title": "Create a Next.js project",
       "conversation": [
         {
           "sender": "user",
-          "message": "Hola bot"
+          "message": "Create a Next.js project"
         },
         {
           "sender": "bot",
-          "message": "Hola, ¿cómo puedo ayudarte hoy?"
+          "message": "To create a new Next.js project, follow these steps:\n\n1. Make sure you have Node.js installed on your computer. You can download it from the official website: https://nodejs.org/\n\n2. Open a terminal and run the following command to create a new Next.js project using create-next-app:\n\n```\nnpx create-next-app my-next-app\n```\n\nReplace \"my-next-app\" with the name you want to give to your project.\n\n3. Once the project is created, navigate to the project directory by running:\n\n```\ncd my-next-app\n```\n\n4. Start the development server by running:\n\n```\nnpm run dev\n```\n\n5. Open your browser and go to http://localhost:3000 to see your Next.js project running.\n\nThat's it! You have successfully created a new Next.js project. You can now start building your application using React components and other Next.js features.",
+          "feedback": "like"
         }
-      ]
+      ],
+      "createdAt": "2025-05-06T01:31:23.979Z"
     }
   ]
 }

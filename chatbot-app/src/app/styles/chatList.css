@@ -1,0 +1,12 @@
+.listChat {
+    max-height: auto;
+    overflow: auto !important;
+  
+    scrollbar-width: none !important;  
+    -ms-overflow-style: none !important;  
+  }
+  
+  .listChat::-webkit-scrollbar {
+    display: none !important; 
+  }
+  

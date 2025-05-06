@@ -18,15 +18,15 @@ export default function TopBar({ onSearchChange }: { onSearchChange: (value: str
   
     setSelectedChat(newEmptyChat);
   };
-  
+   
   
 
   return (
     <div className="p-3 border-bottom">
-      <h4 className="fw-bold mb-3 text-dark">ChatBotAI</h4>
+      <h4 className="fw-semi-bold mb-3 text-dark">C H A T A.I+</h4>
       <div className="d-flex align-items-center gap-2 mb-3">
         {!searchActive && (
-          <button className="btn btn-primary flex-grow-1 rounded-pill" onClick={handleNewChat}>
+          <button className="btn text-white  flex-grow-1 rounded-pill" onClick={handleNewChat} style={{backgroundColor: '#5661F6'}}>
             + New Chat
           </button>
         )}

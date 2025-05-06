@@ -1,4 +1,3 @@
-import rawChats from "../../../data/chats.json";
 import { cookies } from "next/headers";
 import { verify } from "jsonwebtoken";
 import { NextResponse } from "next/server";
@@ -32,7 +31,7 @@ function isValidConversation(conversation: unknown): conversation is Message[] {
 }
 
 export async function PATCH(req: Request) {
-  const cookieStore =  await cookies();
+  const cookieStore = await cookies();
   const token = cookieStore.get("token")?.value;
 
   if (!token) {
@@ -48,9 +47,10 @@ export async function PATCH(req: Request) {
       return NextResponse.json({ message: "Invalid data" }, { status: 400 });
     }
 
-    const updatedChats: Record<string, Chat[]> = rawChats as unknown as Record<string, Chat[]>;
-    const userChats = updatedChats[user.id];
+    const fileContent = fs.readFileSync(chatsFilePath, "utf-8");
+    const updatedChats: Record<string, Chat[]> = JSON.parse(fileContent);
 
+    const userChats = updatedChats[user.id];
     if (!userChats) {
       return NextResponse.json({ message: "No chats found" }, { status: 404 });
     }

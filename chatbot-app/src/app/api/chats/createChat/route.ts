@@ -20,7 +20,7 @@ export async function POST(req: Request) {
 
   try {
     const user = verify(token, SECRET) as User;
-    const { firstMessage, botReply } = await req.json();
+    const { firstMessage, botReply, botFeedback } = await req.json();
 
     if (
       typeof firstMessage !== "string" ||
@@ -32,12 +32,18 @@ export async function POST(req: Request) {
     }
 
     const userMsg: Message = { sender: "user", message: firstMessage.trim() };
-    const botMsg: Message = { sender: "bot", message: botReply.trim() };
+
+    const botMsg: Message = {
+      sender: "bot",
+      message: botReply.trim(),
+      ...(botFeedback === "like" || botFeedback === "dislike" ? { feedback: botFeedback } : {})
+    };
 
     const newChat: Chat = {
       id: uuidv4(),
       title: userMsg.message.slice(0, 30),
       conversation: [userMsg, botMsg],
+      createdAt: new Date().toISOString(),
     };
 
     const updatedChats: Record<string, Chat[]> = { ...chats } as Record<string, Chat[]>;
