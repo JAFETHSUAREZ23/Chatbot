@@ -315,7 +315,6 @@ export default function ChatConversation() {
                 {pair.bot && (
                   <div className="d-flex align-items-start mb-3 justify-content-end w-100">
                     <div className="bg-light rounded-3 me-2 p-2" style={{ maxWidth: "80%" }}>
-                      {/* <div className="text-start text-black mb-1">{pair.bot.message}</div> */}
                       {parseBotMessage(pair.bot.message)}
 
   

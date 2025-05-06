@@ -17,7 +17,6 @@ export default function SearchInput({ onFocusChange, onSearchChange }: SearchInp
     onFocusChange?.(true);
   };
   const handleBlur = () => {
-    // Accede directamente al input actual
     const currentValue = inputRef.current?.value ?? "";
     if (currentValue.trim() === "") {
       setSearchActive(false);

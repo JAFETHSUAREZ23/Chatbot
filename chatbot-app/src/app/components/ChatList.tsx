@@ -11,6 +11,7 @@ import editIcon from "../asssests/edit.png";
 import trashIcon from "../asssests/trash.png";
 import { parseISO, differenceInDays } from "date-fns";
 import '../styles/chatList.css'
+
 export default function ChatList({ searchText = "" }: { searchText: string }) {
   const [chats, setChats] = useState<Chat[]>([]);
   const selectedChat = useSelectedChat();
