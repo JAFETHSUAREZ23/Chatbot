@@ -1,6 +1,21 @@
 {
   "1": [
     {
+      "id": "6a8910f1-d5e4-411c-94d6-7259e5914c90",
+      "title": "Respuesta Placeholder",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "como estas"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
+      ],
+      "createdAt": "2025-05-06T02:48:47.856Z"
+    },
+    {
       "id": "4b2fa2f2-1214-4727-ac26-ac1e2ff4ef6b",
       "title": "How to start coding?",
       "conversation": [
@@ -21,6 +36,14 @@
           "sender": "bot",
           "message": "Sure, here is a simple example of a backend implementation in Node.js, using Express as the server framework:\n\n```javascript\n// Import required modules\nconst express = require('express');\n\n// Create an instance of Express\nconst app = express();\n\n// Define a route\napp.get('/', (req, res) => {\n  res.send('Hello, World!');\n});\n\n// Start the server on port 3000\napp.listen(3000, () => {\n  console.log('Server is running on http://localhost:3000');\n});\n```\n\nThis code sets up a basic Express server that listens for incoming requests on port 3000 and responds with \"Hello, World!\" when the root route is accessed. You can build on this code to add more routes, middleware, and business logic as needed for your backend application.",
           "feedback": "dislike"
+        },
+        {
+          "sender": "user",
+          "message": "Coding tips for beginners"
+        },
+        {
+          "sender": "bot",
+          "message": "1. Start with the basics: Make sure you have a strong understanding of the fundamental concepts of programming such as variables, loops, conditional statements, and functions.\n\n2. Practice regularly: Consistent practice is key to improving your coding skills. Set aside time each day to work on coding exercises or projects.\n\n3. Break down problems: When faced with a coding challenge, break it down into smaller, more manageable tasks. This will make it easier to tackle and solve the problem.\n\n4. Use online resources: There are a plethora of online resources available for learning how to code, including tutorials, forums, and courses. Take advantage of these resources to expand your knowledge.\n\n5. Collaborate with others: Join coding communities or meetups to connect with other beginners and experienced developers. Collaborating with others can help you learn new techniques and receive feedback on your code.\n\n6. Don't be afraid to make mistakes: Making mistakes is a natural part of the learning process. Don't be discouraged if your code doesn't work the first time – use it as an opportunity to learn and improve.\n\n7. Keep up with industry trends: The field of programming is constantly evolving, so it's important to stay up-to-date with the latest technologies and trends. This will help you develop relevant skills and stay competitive in the job market.\n\n8. Stay motivated: Learning to code can be challenging, but the key is to stay motivated and persistent. Set goals for yourself and celebrate your accomplishments along the way."
         }
       ],
       "createdAt": "2025-05-06T01:26:51.068Z"
@@ -133,6 +156,21 @@
     }
   ],
   "2": [
+    {
+      "id": "78791a7f-c347-4e72-a6c3-319bd9fa650c",
+      "title": "PlaceHolder Response",
+      "conversation": [
+        {
+          "sender": "user",
+          "message": "hola"
+        },
+        {
+          "sender": "bot",
+          "message": "🤖 Dime en qué puedo ayudarte."
+        }
+      ],
+      "createdAt": "2025-05-06T02:50:00.796Z"
+    },
     {
       "id": "55066313-ea74-4059-9a79-91cc8c8f4df6",
       "title": "Create a Next.js project",

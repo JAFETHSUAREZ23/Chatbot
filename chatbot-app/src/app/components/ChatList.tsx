@@ -46,6 +46,9 @@ export default function ChatList({ searchText = "" }: { searchText: string }) {
       });
 
       if (res.ok) {
+        if (selectedChat?.id === id) {
+          setSelectedChat(null);
+        }
         triggerRefresh();
       } else {
         const error = await res.json();
