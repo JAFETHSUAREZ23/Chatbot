@@ -98,6 +98,8 @@ ChatBotAI es una aplicación de chat inteligente desarrollada con **Next.js 14 (
     - Integración de JWT en las peticiones del frontend al backend.
 
     - Validaciones más robustas del lado del cliente y servidor.
+
+    - Mejorar la authenticacion utilizar authenticacion MSAL, Microsoft, Gmail, etc. 
     
     - Evaluar alternativas a la API de OpenAI para reducir costos a largo plazo:
 
