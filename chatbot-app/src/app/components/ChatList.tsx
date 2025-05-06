@@ -30,7 +30,7 @@ export default function ChatList({ searchText = "" }: { searchText: string }) {
   );
 
   const recentChats = filtered.filter(
-    (chat) => !chat.createdAt || differenceInDays(new Date(), parseISO(chat.createdAt)) <= 7
+    (chat) => !chat.createdAt || differenceInDays(new Date(), parseISO(chat.createdAt)) < 6
   );
 
   const oldChats = filtered.filter(
