@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { verify } from "jsonwebtoken";
+import { jwtVerify } from "jose";
 
-const SECRET = "frontend-secret-key";
+const SECRET = new TextEncoder().encode("frontend-secret-key");
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
+
   const token = request.cookies.get("token")?.value;
 
   const protectedRoutes = ["/chats", "/user"];
@@ -19,13 +20,18 @@ export function middleware(request: NextRequest) {
   }
 
   try {
-    verify(token, SECRET);
-    return NextResponse.next();
-  } catch {
+    const { payload } = await jwtVerify(token, SECRET);
+    if(payload){
+      return NextResponse.next();
+    }
+  } catch (err) {
+   if(err){
     return NextResponse.redirect(new URL("/login", request.url));
+   }
   }
+  
 }
 
 export const config = {
-  matcher: ["/chats/:path*", "/user/:path*"],
+  matcher: ["/chats","/chats/:path*", "/user/:path*"],
 };
